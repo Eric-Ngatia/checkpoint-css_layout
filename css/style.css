@@ -8,6 +8,7 @@
 }
 :root{
     --first-color:purple;
+    --second-color: #7562e010;
 }
 
 body{
@@ -102,6 +103,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--second-color); 
 }
 
 .partners img{
@@ -118,6 +120,16 @@ a{
 .skills-left{
     width: 20%;
     border: 1px solid red;
+    background-color: var(--second-color); 
+}
+
+.experience{
+    color: var(--first-color);
+    font-size: 100px;
+}
+
+.skills-left p{
+    font-size: 25px;
 }
 
 .skills-right{
@@ -126,6 +138,7 @@ a{
     display: flex;
     flex-direction: column;
     padding-bottom: 0.5rem;
+    background-color: var(--second-color); 
 }
 
 .skills_title{
@@ -251,18 +264,131 @@ a{
 }
 
 .hackaton{
-    border: 1px solid pink;
+    border: 4px solid pink;
     height: 400px;
+    display: flex;
+    
 }
 
 .winner{
     border: 2px solid blue;
     height: 100%;
     width: 50%;
+    border-radius: 10px;
 }
 .winner-img{
     object-fit: cover;
     overflow: hidden;
-    height: 500px;
+    height: 400px;
+    width: 100%;  
+}
+
+.text{
+    border: 2px solid red;
+    height: 400px;
+    width: 50%;
+    padding-left: 1rem;
+}
+
+.text_title p{
+    color: var(--first-color);
+    font-size: 40px;
+}
+
+.playstore{
+    border: 2px solid orangered;
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.playstore img{
+    object-fit: cover;
+    height: 70px;  
+}
+
+.texts {
+    color: rgba(46, 43, 43, 0.705);
+    font-size: 15px;
+    margin-top: 1rem;
+}
+
+.texts i{
+    color:rgba(46, 43, 43, 0.705) ;
+}
+
+.declaration{
+    border: 5px solid red;
+    padding: 2rem;
+    background-color: var(--second-color);
+}
+
+.declaration .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container{
+    border: 3px solid blue;
+    padding: 3rem;
+}
+
+.box{
+    height: 280px;
+    width: 32%;
+    border: 1px solid green;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box :hover{
+    transform: scale(1.02);
+    cursor: pointer;
     
 }
+
+.box .illustration i{
+    color: #7562e0;
+    transition: all .3s ease-in-out;
+}
+
+.box i :hover{
+    color:var(--violet);
+}
+
+
+.container .box i{
+    color: var(--second-color);
+    position: relative;
+    bottom: 20px;
+    right: -190px;
+    font-size: 60px;
+}
+
+
+.box img{
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 4px solid var(--first-color);
+}
+
+
+.box p{
+    padding: 2rem;
+    color: var(--first-color);
+    font-size: 15px;
+}
+
+.box span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(124, 121, 121, 0.795);
+    font-size: 15px;
+}
+

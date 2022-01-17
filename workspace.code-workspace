@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\Sous dossier 1"
+		},
+		{
+			"path": "..\\..\\..\\3D Objects\\Nouveau dossier"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GoMyCode"
+	}
+}
